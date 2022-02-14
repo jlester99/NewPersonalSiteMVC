@@ -13,7 +13,7 @@
     
     
     // Initiate the wowjs
-    new WOW().init();
+    //new WOW().init();
 
 
     // Sticky Navbar
@@ -71,7 +71,7 @@
     // Header carousel
     $(".header-carousel").owlCarousel({
         autoplay: true,
-        smartSpeed: 1500,
+        autoplayTimeout: 10000,
         items: 1,
         dots: false,
         loop: true,
@@ -81,6 +81,18 @@
             '<i class="bi bi-chevron-right"></i>'
         ]
     });
+
+    // slider text
+    if ($('.header h2').length == 1) {
+        var typed_strings = $('.header .typed-text').text();
+        var typed = new Typed('.header h2', {
+            strings: typed_strings.split(', '),
+            typeSpeed: 100,
+            backSpeed: 15,
+            smartBackspace: false,
+            loop: true
+        });
+    }
 
 
     // Testimonials carousel
