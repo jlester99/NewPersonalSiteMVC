@@ -1,0 +1,11 @@
+﻿@model PersonalSiteMVC.UI.Models.ContactViewModel
+
+@{
+    ViewBag.Title = "Email Confirmation";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<h4>We have forwarded the following message:</h4>
+<p>@Model.Message</p>
+<h4>Thank you for contacting me!  I will respond as soon as I can to @Model.Email.  </h4>

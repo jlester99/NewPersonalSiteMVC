@@ -116,17 +116,25 @@ body {
 
 .navbar-light .navbar-nav .nav-link {
     margin-right: 30px;
-    padding: 25px 0;
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 1rem;
     text-transform: uppercase;
     outline: none;
 }
 
+    /*.navbar-light navbar-nav li a:hover,*/
     .navbar-light .navbar-nav .nav-link:hover,
-    .navbar-light .navbar-nav .nav-link.active {
+    .navbar-light .navbar-nav .dropdown-link:hover,
+    .navbar-light .navbar-nav .nav-link:focus,
+    .navbar-light .navbar-nav .dropdown-link.active,
+    .navbar-light .navbar-nav li.active a {
         color: var(--primary);
     }
+
+/*#navbar-collapse .navbar-nav .nav-link:hover,
+#navbar-collapse .navbar-nav .nav-link:active {
+    color: var(--primary);
+}*/
 
 @media (max-width: 991.98px) {
     .navbar-light .navbar-nav .nav-link {
@@ -182,6 +190,14 @@ body {
 .navbar .gradLogo {
     height: 65px;
     width: 75px;
+}
+
+#navbar-collapse .navbar-link .dropdown-item:active {
+    background-color: darkturquoise;
+} 
+
+#nav li .active {
+    color: darkturquoise;
 }
 
 
@@ -354,14 +370,14 @@ body {
     transform: scale(1.1);
 }
 
-owl-carousel .header-carousel {
+/*owl-carousel .header-carousel {
     background-image: url('../img/wordcloud 3 resized.png');
-    /*background-image: url('../img/virtual classroom 2.jpg'); */
-    /*background-image: url('../img/final word art web.png');*/
+    /*background-image: url('../img/virtual classroom 2.jpg'); 
+    background-image: url('../img/final word art web.png');
     background-repeat: no-repeat;
     background-size: cover;
     opacity: .8;
-}
+}*/*/
 
 
 /*** Classmates ***/
@@ -672,6 +688,10 @@ owl-carousel .header-carousel {
 
 .text-primary {
     color: indigo !important;
+}
+
+.typed-cursor {
+    color: transparent;
 }
 
 /*.navbar p img {
