@@ -72,7 +72,7 @@
                                 <a href="@Url.Action("Classmates","Home")" class="dropdown-item dropdown-link">My Classmates</a>
 
                                 @* how to add below in controller/view since it's part of a view just pointing to id (#review)? *@
-                                <a class="dropdown-item dropdown-link" href="@Url.Action("Resume", "Home")#review">Testimonials</a>
+                                <a class="dropdown-item dropdown-link" href="@Url.Action("Testimonial", "Home")">Testimonials</a>
                                 <a href="@Url.Action("Resume","Home")" class="dropdown-item dropdown-link">Resume</a>
                             </div>
                         </div>
@@ -83,7 +83,7 @@
                     </li>
                 </ul>
             </div>
-            <a href="@Url.Action("About","Home")" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Learn More</a>
+            <a href="@Url.Action("About","Home")" class="btn btn-primary py-4 px-md-5 d-none d-md-block">Learn More</a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -113,7 +113,7 @@
                             <a class="btn btn-link" href="@Url.Action("About", "Home")">About Me</a>
                         </li>
                         <li>
-                            <a class="btn btn-link" href="@Url.Action("Contact", "Home")" ">Contact Me</a>
+                            <a class="btn btn-link" href="@Url.Action("Contact", "Home")">Contact Me</a>
                         </li>
                         <li>
 
@@ -131,8 +131,8 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <h4 class="text-white mb-3">Contact</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, Kansas City, MO</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+1 555 555 5555</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Kansas City, Missouri</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+1 816 803 0903</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>janet.lester1@outlook.com</p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-outline-light btn-social" style="border:none"></a>
@@ -156,13 +156,14 @@
                             <img class="img-fluid bg-light p-1" src="~/Content/img/multi products_ccexpress.png" alt="Storefront project">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="~/Content/img/course-1.jpg" alt="placeholder for project 4">
+                            <img class="img-fluid bg-light p-1" src="~/Content/img/Personal Site Static.png" alt="screen image of Personal portfolio non-MVC site" />
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="~/Content/img/course-2.jpg" alt="placeholder for project 5">
+                            <img class="img-fluid bg-light p-1" src="~/Content/img/API screenshot.png" alt="screen image of Web API">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="~/Content/img/course-3.jpg" alt="placeholder for project 6">
+                            <img class="img-fluid bg-light p-1"
+                            src="~/Content/img/SAT Pair.png"  alt="screen image of Scheduling Admin Tool">
                         </div>
                     </div>
                 </div>
@@ -229,7 +230,7 @@
                     $(this).addClass('active');
                     //add the class from CSS highlight it.
                     //Whatever the class is named in css.
-                    console.log('add active');
+                    //console.log('add active');
 
                 }
                 if (aController[1] == 'Home' && window.location.pathname != fullAnchor) {

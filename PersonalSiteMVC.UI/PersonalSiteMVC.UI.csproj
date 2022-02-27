@@ -155,6 +155,7 @@
     <Content Include="Content\css\templatemo.min.css" />
     <Content Include="Content\img\Abbey Outain.jpg" />
     <Content Include="Content\img\Andrew Allen.jpg" />
+    <Content Include="Content\img\API screenshot.png" />
     <Content Include="Content\img\arrow_r.png" />
     <Content Include="Content\img\building blocks 2.jpg" />
     <Content Include="Content\img\bullet_point_image_teal.png" />
@@ -181,7 +182,9 @@
     <Content Include="Content\img\multi products_ccexpress.png" />
     <Content Include="Content\img\Patrick Stephen.jpg" />
     <Content Include="Content\img\Pawsitive Vibes.png" />
-    <Content Include="Content\img\Personal Site Static .png" />
+    <Content Include="Content\img\Personal Site Static.png" />
+    <Content Include="Content\img\SAT 1.png" />
+    <Content Include="Content\img\SAT Pair.png" />
     <Content Include="Content\img\Scott Cashion.jpg" />
     <Content Include="Content\img\updated laptop background 3.jpg" />
     <Content Include="Content\img\wordcloud 4_ccexpress.png" />

@@ -34,6 +34,10 @@ namespace PersonalSiteMVC.UI.Controllers
             return View();
         }
 
+        public ActionResult Testimonial()
+        {
+                return Redirect("/Home/Resume/#review"); // redirects to internal url
+        }
 
         [HttpGet]
         public ActionResult Contact()
